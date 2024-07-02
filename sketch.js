@@ -157,7 +157,7 @@ function draw() {
   textSize(8)
   text('(Backspace)', width/20, height/12)
   
-  if(mouseX>=0 && mouseX<width/10 && mouseY>=0 && mouseY<height/10){
+  if(mouseX>0 && mouseX<width/10 && mouseY>0 && mouseY<height/10){
     if(lighttheme == 0){
       clearallcolour = color(156, 28, 23)
     } else if(lighttheme == 1){
