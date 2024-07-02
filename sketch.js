@@ -316,7 +316,7 @@ function mousePressed(){
     stroke(color(255, 0, 0))
     fill(BGC)
     strokeWeight(3)
-    circle(width*49/64, height*3/10, width/20)
+    circle(width*49/64, height*3/10, 32)
     
     strokeWeight(1)
     textSize(30)
@@ -380,7 +380,7 @@ function keyPressed(){
   if(key === '?'){
     var randomColor = "#" + Math.floor(Math.random() * 16777215).toString(16);
     palette = createColorPicker(randomColor);
-    palette.position(0, height*457.3/497);
+    palette.position(0, height*14/15);
   }
   
   if(keyCode === 8){
