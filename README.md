@@ -1,3 +1,3 @@
-# paint-app
+# paint
 
 Hi! This is my paint app for a CS performance task. Choose a colour and have fun!
